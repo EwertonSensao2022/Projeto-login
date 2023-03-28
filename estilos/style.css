@@ -29,6 +29,12 @@ body, html{
 
 .imagem img{
     width: 250px;
+    height: 120px;
     display: block;
-    
+    object-fit: cover;
+}
+
+.formulario{
+    padding: 10px;
+    text-align: center;
 }
