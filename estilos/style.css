@@ -38,5 +38,18 @@ body, html{
 
 .formulario{
     padding: 10px;
-    text-align: center;
+   
+}
+
+.submeter{
+    position: absolute;
+    left: 35%;
+    margin: 10px;
+}
+
+.esquecisenha{
+    text-decoration: none;
+    position: absolute;
+    top: 330px;
+    margin-left: 35px;    
 }
