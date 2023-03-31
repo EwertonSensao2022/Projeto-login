@@ -13,6 +13,16 @@ body, html{
     background-color: rgb(85, 174, 252);
 }
 
+.formulario h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.formulario p{
+    padding: 10px;
+    text-align: center;
+}
+
 .login{
     display: block;
     position: absolute;
@@ -25,7 +35,7 @@ body, html{
     transform: translate(-50%, -50%);
     overflow: hidden; /*corta tudo que estiver pra fora da section*/
     box-shadow: 0 0 10px ;
-    transition: width 1s, heigth 1s; /*quando aumenta e diminui a telademora 1 segundo*/
+    transition: width 0.5s, heigth 1s; /*quando aumenta e diminui a telademora 1 segundo*/
     transition-timing-function: ease; /*suavisa o transition*/
 }
 
@@ -34,22 +44,43 @@ body, html{
     height: 120px;
     display: block;
     object-fit: cover;
+    background-position: left bottom; /*---nao funciona---*/
 }
 
 .formulario{
     padding: 10px;
-   
+}
+
+.campo{
+    padding: 5px 2px 2px 2px;
+    background-color: rgba(0, 0, 0, 0.836);
+    margin-top: 1px;
+}
+
+span{
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+#isenha, #ilogin{
+    transform: translatey(-7px);
+    width: 80%;
 }
 
 .submeter{
-    position: absolute;
-    left: 35%;
-    margin: 10px;
+    width: 65%;
+    margin-top: 10px;
+    margin-left: 18%;
+}
+
+.submeter:hover{
+    background-color: rgba(128, 128, 128, 0.336);
+    cursor:pointer;
 }
 
 .esquecisenha{
     text-decoration: none;
-    position: absolute;
-    top: 330px;
-    margin-left: 35px;    
+    text-align: center;
+    display: block;
+    margin-top: 10px;
 }

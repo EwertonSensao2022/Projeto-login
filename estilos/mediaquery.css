@@ -21,12 +21,17 @@
         float: right;
         width: 70%;
     }
+
+#ilogin, #isenha{
+    width: 90%;
+}
+
     .submeter{
-        position: absolute;
-        display: flex;
-        left: 42%;
+        margin-left: 45%;
         transform: translate(-45%);
+        width: 352px;
     }
+
 }
 
     @media screen and (min-width:992px) {
@@ -49,9 +54,13 @@
             width: 50%;
         }
         .submeter{
-            position: absolute;
-            left: 58%;
-           
+            width: 350px;
+            margin-left: 13%;
         }
-         
+
+        #ilogin, #isenha{
+            width: 90%;
+        }
+
+   
     }
